@@ -1,6 +1,6 @@
-# The Shuffle Editor (https://shuffle.dev)
+# Landing Page
 
-NOTE: npm commands overwrite the ./public directory.
+NOTE: npm or yarn commands overwrite the ./public directory.
 
 ## 1. Getting Started
 
@@ -16,22 +16,11 @@ All your pages (templates) are stored in separated .pug or .html files (depends 
 
 ```
 # Install dependencies
-npm install 
+yarn install 
 
 # Run dev server with live preview (Browsersync)
-npm run watch
+yarn watch
 
 # Or make a production build 
-npm run build
+yarn build
 ```
-
-## 3. Contact
-
-If you have found any bugs in the Tailwind Builder, have any questions, 
-comments or ideas for new features feel free to contact us:
-
-support@shuffle.dev
-
-## 4. Credits & Special thanks
-
-We use placeholders from https://unsplash.com/
