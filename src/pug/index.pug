@@ -18,7 +18,7 @@ html(lang="en")
                             img(class="h-36 w-48", src="images/logo.svg", alt="AiTok.ai")
                         h1(class="text-4xl font-extrabold font-heading", contenteditable="false")
                         h1(class="text-3xl md:text-4xl font-extrabold font-heading mb-4", style="--tw-shadow: 0 0 #0000; --tw-ring-inset: var(--tw-empty, ); --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(10, 173, 255, 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; font-family: Manrope, ui-sans-serif, system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; outline: none; user-select: text;")
-                            | Collaboration starts with fun
+                            | Collaborations start with fun
                     img(class="block mx-auto mb-12", src="nigodo-assets/apps/laptop-full.svg", alt="")
                     div(class="max-w-3xl mx-auto text-center")
                         p(class="text-xl font-extrabold leading-7 mb-6", contenteditable="false") More fun is fueled by AI and your sharing. Welcome to AiTok!
@@ -86,6 +86,7 @@ html(lang="en")
                     document.getElementById('cookies').style.display = 'none';
                     localStorage.setItem('allowCookies', 'true');
                 });
-                document.getElementById('allow-cookie-btn').addEventListener('click', function() {
+                document.getElementById('decline-cookie-btn').addEventListener('click', function() {
+                    document.getElementById('cookies').style.display = 'none';
                     localStorage.setItem('allowCookies', 'false');
                 });
